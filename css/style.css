@@ -7,6 +7,7 @@
 html {
     font-family: 'Montserrat', sans-serif;
 
+    background-color: #bbf9ff;
 }
 
 body {}
@@ -17,8 +18,27 @@ a {
 
 header {
     position: fixed;
-
+    z-index: 1;
     width: 100%;
+}
+
+.btn-entre-contato {
+    text-align: center;
+    background-image: linear-gradient(to top, #15365c, #106af2, #00e0ff);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    cursor: pointer;
+    color: var(--cor-Branco-Azulado);
+}
+
+.btn-entre-contato:hover {
+    background-image: linear-gradient(to right,#106af2, #00e0ff, #106af2);
+    box-shadow: 0 0 5px #00e0ff, 0 0 25px #00e0ff, 0 0 50px #00e0ff, 0 0 200px #00e0ff;
+    border-radius: 10px;
+    transition: all 1.5s ease;
+    color: var(--cor-Azul-Marinho);
 }
 
 /******************************************************************** Configurações navbar ********************************************************************/
@@ -30,7 +50,7 @@ header {
     color: #15365c;
     text-transform: uppercase;
     background-color: #bbf9ff;
-  
+
 }
 
 .nav-list {
@@ -118,7 +138,7 @@ main {
     text-align: center;
     margin-bottom: 7rem;
     font-size: 1rem;
-    color:#bbf9ff;
+    color: #bbf9ff;
     text-transform: uppercase;
 }
 
@@ -226,7 +246,7 @@ main {
 
 /******************************************************************* Configurações Marcas*******************************************/
 .container-marcas {
-    background-color: #04b3c8 ;
+    background-color: #04b3c8;
     width: 100%;
 }
 
@@ -284,11 +304,18 @@ main {
 
 .box-vantagens {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #dbf3f0;
+    margin: 10px;
+}
+
+.box-vantagens aside {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 20px;
-    background-color: #dbf3f0;
 }
 
 .titulo-vantagens {
@@ -311,7 +338,7 @@ main {
 
 .box-text-vantagens p {
     margin-top: 20px;
-    color: #040314; 
+    color: #040314;
 }
 
 .img-vantagens {
@@ -330,7 +357,7 @@ main {
     flex-direction: column;
     width: 100%;
     padding: 10px;
-    margin-top: 50px; background-image: linear-gradient(rgba(4, 3, 20, 0.8), rgba(4, 3, 20, 1)), url(/img/capa-img-beneficios.jpg);
+    background-image: linear-gradient(rgba(4, 3, 20, 0.8), rgba(4, 3, 20, 1)), url(/img/capa-img-beneficios.jpg);
     background-size: cover;
 
 }
@@ -420,34 +447,72 @@ main {
     background-repeat: no-repeat;
 }
 
-/******************************************************************* Configurações Quem somos *****************************************/
+/******************************************************************* Configurações Peças *****************************************/
 
-.container-quemsomos {
+.container-pecas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #bbf9ff;
+    color: #040314;
+}
+
+.box-pecas1 {
+    flex-direction: row-reverse;
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+.box-pecas2 {
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+.box-cor {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
-    margin: 30px;
+    width: 50%;
+
 }
 
-.box-text-quemsomos {
-    line-height: 80px;
-}
-
-.primary-text-quemsomos {
+.box-cor h1 {
     font-family: lato, sans-serif;
-    font-size: 5rem;
     font-weight: 900;
+    font-size: 4rem;
+    color: #040314;
+    text-align: center;
+    line-height: 100px;
 }
 
-.second-text-quemsomos {
-    color: #bebebe;
+.box-cor .paragrafo-pecas {
+    text-align: center;
+    width: 500px;
 }
 
-.text-quemsomos {
-    width: 850px;
+.box-img {
+    width: 50%;
 }
+
+.banner-pecas {
+    background-image: url(/img/Banner-pecas.jpg);
+    background-position: center center;
+    background-size: 670px 500px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+.banner-pecas1 {
+    background-image: url(/img/Banner-pecas1.jpg);
+    background-position: center center;
+    background-size: 670px 500px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
 
 /********************************************************** Configurações Opcionais de compras *******************************************/
 .opcionais-compras {
@@ -551,6 +616,8 @@ input {
 }
 
 textarea {
+
+    border-radius: 15px;
     width: 100%;
     height: 300px;
 }
