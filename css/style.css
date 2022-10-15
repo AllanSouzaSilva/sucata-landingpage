@@ -41,10 +41,7 @@ header {
     color: var(--cor-Azul-Marinho);
 }
 
-/******************************************************************** Configurações navbar ********************************************************************/
-
-
-
+/**************** Configurações navbar **************/
 nav {
     display: flex;
     justify-content: space-between;

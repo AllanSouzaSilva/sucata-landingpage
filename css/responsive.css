@@ -2,7 +2,20 @@
     nav {
         justify-content: flex-end !important;
     }
-   
+   .section-text{
+    border: 2px solid yellow;
+    width:100%;
+   }
+
+   .section-btns{
+    flex-direction: column;
+   }
+.paragrafo-marcas{
+    width: 100%;
+}
+
+
+
 }
 
 @media (min-width: 574px) and (max-width: 767.98px) {}
