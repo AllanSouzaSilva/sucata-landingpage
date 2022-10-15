@@ -34,7 +34,7 @@ header {
 }
 
 .btn-entre-contato:hover {
-    background-image: linear-gradient(to right,#106af2, #00e0ff, #106af2);
+    background-image: linear-gradient(to right, #106af2, #00e0ff, #106af2);
     box-shadow: 0 0 5px #00e0ff, 0 0 25px #00e0ff, 0 0 50px #00e0ff, 0 0 200px #00e0ff;
     border-radius: 10px;
     transition: all 1.5s ease;
@@ -43,57 +43,148 @@ header {
 
 /******************************************************************** Configurações navbar ********************************************************************/
 
-.navbar {
+
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #15365c;
-    text-transform: uppercase;
-    background-color: #bbf9ff;
-
+    background: var(--cor-Branco-Azulado);
+    height: 15vh;
 }
 
 .nav-list {
+    width: 100%;
     list-style: none;
     display: flex;
-    gap: 20px;
-}
-
-.link-nav {
-    padding: 1rem;
-    transform: 2ms ease-in;
-    position: relative;
-    color: #15365F;
-}
-
-.navbar .nav-list .link-nav::before {
-    content: ' ';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background-color: #04b3c8;
-    transition: all 1.5s ease;
-}
-
-.navbar .nav-list .link-nav:hover:before {
-    width: 100%;
-}
-
-.box-logo-nav {
-    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-.box-logo-nav h1 {
-    font-weight: bold;
-    letter-spacing: 5px;
+.nav-list li {
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+
+.links-navegacao {
+    color: var(--cor-Azul-Marinho);
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px 10px;
+    position: relative;
+    transition: all 0.5s;
+
+}
+
+.links-navegacao::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background: #106af2;
+    display: inline-block;
+    transition: all 0.5s;
+    z-index: 1;
+
+}
+
+.links-navegacao:hover::after {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: var(--cor-Azul-Marinho);
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+.nav-list {
+        position: absolute;
+        top: 5vh;
+        right: 0;
+        width: 50vw;
+        height: 98vh;
+        margin-top: 0;
+        background: var(--cor-Branco-Azulado);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        z-index: 999;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
 }
 
 .img-logoempresa {
     width: 100px;
     height: 100px;
+}
+
+.nav-list .logo{
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: lato, sans-serif;
+    color: var(--cor-Azul-Marinho);
 }
 
 /******************************************************************* Configurações main ***********************************************/
@@ -622,6 +713,22 @@ textarea {
     height: 300px;
 }
 
+.main-btn {
+    cursor: pointer;
+    background-image: linear-gradient(to top, #15365c, #106af2, #00e0ff);
+    color: var(--cor-Branco-Azulado);
+    border: none;
+}
+
+.main-btn:hover {
+    background-image: linear-gradient(to right, #106af2, #00e0ff, #106af2);
+    box-shadow: 0 0 5px #00e0ff, 0 0 25px #00e0ff, 0 0 50px #00e0ff, 0 0 200px #00e0ff;
+    border-radius: 10px;
+    transition: all 1.5s ease;
+    color: var(--cor-Azul-Marinho);
+}
+
+/******************************************************************* Configurações Formas de pagamento ***********************************************/
 .formas-pagamentos {
     color: #bbf9ff;
     margin: 10px;
