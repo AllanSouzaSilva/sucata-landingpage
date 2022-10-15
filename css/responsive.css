@@ -2,17 +2,50 @@
     nav {
         justify-content: flex-end !important;
     }
-   .section-text{
-    border: 2px solid yellow;
-    width:100%;
-   }
 
-   .section-btns{
-    flex-direction: column;
-   }
-.paragrafo-marcas{
-    width: 100%;
-}
+    .section-text {
+        width: 100%;
+    }
+
+    .section-btns {
+        flex-direction: column;
+    }
+
+    .paragrafo-marcas {
+        width: 100%;
+    }
+
+    .box-marcas {
+        flex-direction: row;
+    }
+
+    .list-marcas {
+        flex-direction: column;
+    }
+
+    .box-vantagens aside {
+        flex-direction: column;
+    }
+
+    .box-list-beneficios {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .container-pecas {
+        
+    }
+
+    .box-pecas1, .box-pecas2 {
+        height: 900px;
+        flex-direction: column;
+    }
+    .box-img{
+        width: 100%;
+        height: 450px;
+    } 
+
+
 
 
 
