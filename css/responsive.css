@@ -5,6 +5,7 @@
 
     .section-text {
         width: 90%;
+        padding-top: 20px;
     }
 
     .section-btns {
@@ -88,7 +89,6 @@
     }
 
     .box-infomacoesempresa {
-        border: 2px solid yellow;
         flex-direction: column;
         align-items: center;
         color: #f8f2f6;
@@ -147,6 +147,7 @@
 
     .section-text {
         width: 90%;
+        padding-top: 20px;
     }
 
     .section-btns {
@@ -230,7 +231,6 @@
     }
 
     .box-infomacoesempresa {
-        border: 2px solid yellow;
         flex-direction: column;
         align-items: center;
         color: #f8f2f6;
@@ -288,6 +288,7 @@
 
     .section-text {
         width: 90%;
+        padding-top: 20px;
     }
 
     .section-btns {
@@ -371,7 +372,6 @@
     }
 
     .box-infomacoesempresa {
-        border: 2px solid yellow;
         flex-direction: column;
         align-items: center;
         color: #f8f2f6;

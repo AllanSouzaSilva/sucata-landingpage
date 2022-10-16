@@ -186,11 +186,12 @@ nav {
 
 /******************************************************************* Configurações main ***********************************************/
 main {
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+      overflow-x: hidden;
+    width: 100%;
 }
 
 /******************************************************************* Configurações container apresentção ***********************************************/
@@ -333,7 +334,7 @@ main {
 
 /******************************************************************* Configurações Marcas*******************************************/
 .container-marcas {
-    background-color: #04b3c8;
+    background-color: var(--cor-azulesmeralda);
     width: 100%;
 }
 
@@ -384,7 +385,7 @@ main {
 }
 
 .subtitulo-marcas {
-    color: #bbf9ff;
+    color: var(--cor-Azul-Oceano);
 }
 
 /******************************************************************* Configurações vantagens ******************************************/
