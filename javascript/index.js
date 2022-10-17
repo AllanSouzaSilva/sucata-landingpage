@@ -42,3 +42,15 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+
+
+
+  /********** Efeito scroll com caida ***********/
+
+  //<![CDATA[
+    $(window).on('load', function () {
+      $('#preloader .inner').fadeOut();
+      $('#preloader').delay(50).fadeOut('slow'); 
+      $('body').delay(50).css({'overflow': 'visible'});
+    })
+    //]]>

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Link efeito caindo -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Fontes utilizadas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +33,7 @@
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-            <ul class="nav-list">
+            <ul class="nav-list" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1100">
                 <li>
                     <img class="img-logoempresa" src="/img/lgoempresa-comodoro.png" alt="Logo empresa comodoro">
                 </li>
@@ -60,15 +61,15 @@
     <main>
         <!-- Inicio Container apresentação  -->
         <article class="container-apresentacao">
-            <section class="section-text">
+            <section class="section-text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900">
                 <h1 class="primary-text">Precisando de peças ?</h1>
                 <h2 class="second-text">Aqui é o lugar certo, temos uma diversidade gigante de peças e com as
                     grandes
                     montadoras </h2>
             </section>
-            <section class="section-btns">
-                <button href="#">Entre em contato!</button>
-                <button href="#">Dúvidas</button>
+            <section class="section-btns" >
+                <button href="#" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1100">Entre em contato!</button>
+                <button href="#" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1100">Dúvidas</button>
             </section>
         </article>
         <!-- Inicio Container apresentação  -->
@@ -308,7 +309,7 @@
             </ul>
         </aside>
         <!-- Fim Container Opcionais de compras  -->
-    
+
         <!-- Inicio Container Rodapé  -->
         <article class="container-rodape">
             <aside class="box-infomacoesempresa">
@@ -407,7 +408,10 @@
     </section>
 
     <script type="text/javascript" src="./javascript/index.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
