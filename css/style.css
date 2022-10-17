@@ -265,7 +265,7 @@ main {
     position: absolute;
     width: 0;
     height: 60px;
-    background-color: rgb(60, 60, 60);
+    background-color: var(--cor-Azul-Oceano);
     z-index: -1;
     transition: 1s;
 }
@@ -416,12 +416,17 @@ main {
 }
 
 .box-text-vantagens {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+align-items: center;
     background-image:
         url(/img/banner-vantagens.png);
-    background-size: 600px 600px;
+    background-size: 500px 500px;
     background-repeat: no-repeat;
-    width: 550px;
-    padding: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius:15px ;
 }
 
 .box-text-vantagens p {
