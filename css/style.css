@@ -66,7 +66,7 @@ nav {
 
 
 .links-navegacao {
-    color: var(--cor-Azul-Marinho);
+    color: var(--cor-Azul-Oceano);
     text-decoration: none;
     transition: 0.3s;
     padding: 10px 10px;
@@ -103,7 +103,7 @@ nav {
 .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: var(--cor-Azul-Marinho);
+    background: var(--cor-Azul-Oceano);
     margin: 8px;
     transition: 0.3s;
 }
@@ -132,7 +132,7 @@ nav {
 
     .nav-list {
         position: absolute;
-        top: 5vh;
+        top: 8vh;
         right: 0;
         width: 50vw;
         height: 98vh;
@@ -147,7 +147,7 @@ nav {
     }
 
     nav {
-        height: 5vh;
+        height: 8vh;
     }
 
     .nav-list li {
