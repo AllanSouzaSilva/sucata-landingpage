@@ -4,12 +4,12 @@
     }
 
     .section-text {
-        width: 90%;
-        padding-top: 40px;
+        width: 100%;
         text-align: center;
     }
 
     .section-btns {
+        margin-top: -80px;
         flex-direction: column;
     }
 
@@ -124,10 +124,18 @@
 
 
     .formulariocontato form {
-        margin: auto;
+        justify-content: flex-end;
         width: 80%;
         height: 80%;
 
+    }
+
+    .formulariocontato form,
+    .box-endereco-contato,
+    .horariofuncionamento,
+    .formulariocontato,
+    .formas-pagamentos {
+        padding: 10px;
     }
 
     input {
@@ -141,7 +149,8 @@
     }
 
     .main-btn {
-        margin: auto;
+        width: 100%;
+        margin-top: 20px;
     }
 
     .elo {
@@ -199,6 +208,8 @@
     }
 
     .section-btns {
+
+        margin-top: -80px;
         flex-direction: column;
     }
 
@@ -336,10 +347,18 @@
 
 
     .formulariocontato form {
-        margin: auto;
+        justify-content: flex-end;
         width: 80%;
         height: 80%;
 
+    }
+    
+    .formulariocontato form,
+    .box-endereco-contato,
+    .horariofuncionamento,
+    .formulariocontato,
+    .formas-pagamentos {
+        padding: 10px;
     }
 
     input {
@@ -349,11 +368,14 @@
     }
 
     textarea {
+     
         height: 150px;
     }
 
     .main-btn {
-        margin: auto;
+    
+        width: 100%;
+        margin-top: 20px;
     }
 
     .elo {
@@ -410,6 +432,8 @@
     }
 
     .section-btns {
+
+        margin-top: -80px;
         flex-direction: column;
     }
 
@@ -547,10 +571,18 @@
 
 
     .formulariocontato form {
-        margin: auto;
+        justify-content: flex-end;
         width: 80%;
         height: 80%;
 
+    }
+    
+    .formulariocontato form,
+    .box-endereco-contato,
+    .horariofuncionamento,
+    .formulariocontato,
+    .formas-pagamentos {
+        padding: 10px;
     }
 
     input {
@@ -564,7 +596,9 @@
     }
 
     .main-btn {
-        margin: auto;
+      
+        width: 100%;
+        margin-top: 20px;
     }
 
     .elo {
@@ -622,6 +656,7 @@
     }
 
     .section-btns {
+        margin-top: -80px;
         flex-direction: column;
     }
 
@@ -759,10 +794,18 @@
 
 
     .formulariocontato form {
-        margin: auto;
+        justify-content: flex-end;
         width: 80%;
         height: 80%;
 
+    }
+    
+    .formulariocontato form,
+    .box-endereco-contato,
+    .horariofuncionamento,
+    .formulariocontato,
+    .formas-pagamentos {
+        padding: 10px;
     }
 
     input {
@@ -776,7 +819,9 @@
     }
 
     .main-btn {
-        margin: auto;
+        
+        width: 100%;
+        margin-top: 20px;
     }
 
     .elo {
