@@ -3,7 +3,16 @@
         justify-content: flex-end !important;
     }
 
+    .section-text h1 {
+        width: 95%;
+        font-size: 4rem;
+    }
+
     .section-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         text-align: center;
     }
@@ -13,21 +22,38 @@
         flex-direction: column;
     }
 
+    .second-text {
+        width: 85%;
+    }
+
     .paragrafo-marcas {
-        width: 90%;
+        width: 85%;
     }
 
     .subtitulo-marcas {
         width: 90%;
         margin: auto;
     }
-
+.container-marcas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
     .box-marcas {
         flex-direction: row;
     }
 
     .list-marcas {
+
         flex-direction: column;
+    }
+
+    .list-marcas .marcas {
+        padding: 10px;
+    }
+
+    .box-text-vantagens p {
+        width: 85%;
     }
 
     .box-vantagens aside {
@@ -67,6 +93,10 @@
         width: 100%;
         margin: auto;
         padding: 5px;
+    }
+
+    .box-cor p {
+        width: 400px !important;
     }
 
     .paragrafo-pecas {
@@ -153,17 +183,20 @@
         margin-top: 20px;
     }
 
-    .elo {
-        width: 200px;
-
-    }
 
     .formas-pagamentos ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
-        list-style: none;
-        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formas-pagamentos ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
     .formas-pagamentos h1 {
@@ -171,11 +204,13 @@
         margin: 10px;
     }
 
-    .formas-pagamentos li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
+
+    .img-bandeiras {
+        width: 80px;
+    }
+
+    .formas-pagamentos i {
+        font-size: 4rem;
     }
 
     .btn-whats {
@@ -194,7 +229,6 @@
         top: 0;
         left: 0;
     }
-
 }
 
 @media (min-width: 574px) and (max-width: 767.98px) {
@@ -202,9 +236,22 @@
         justify-content: flex-end !important;
     }
 
+    .section-text h1 {
+        width: 95%;
+        font-size: 4rem;
+    }
+
     .section-text {
-        width: 90%;
-        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .second-text {
+        width: 85%;
     }
 
     .section-btns {
@@ -221,7 +268,11 @@
         width: 90%;
         margin: auto;
     }
-
+    .container-marcas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .box-marcas {
         flex-direction: row;
     }
@@ -229,9 +280,16 @@
     .list-marcas {
         flex-direction: column;
     }
+    .list-marcas .marcas {
+        padding: 10px;
+    }
 
     .box-vantagens aside {
         flex-direction: column;
+    }
+
+    .box-text-vantagens p {
+        width: 85%;
     }
 
     .box-text-vantagens {
@@ -263,6 +321,10 @@
         width: 100%;
         margin: auto;
         padding: 5px;
+    }
+
+    .box-cor p {
+        width: 400px !important;
     }
 
     .paragrafo-pecas {
@@ -320,10 +382,17 @@
 
     .formas-pagamentos ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
-        list-style: none;
-        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formas-pagamentos ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
     .box-infomacoesempresa section,
@@ -352,7 +421,7 @@
         height: 80%;
 
     }
-    
+
     .formulariocontato form,
     .box-endereco-contato,
     .horariofuncionamento,
@@ -368,39 +437,35 @@
     }
 
     textarea {
-     
+
         height: 150px;
     }
 
     .main-btn {
-    
+
         width: 100%;
         margin-top: 20px;
     }
 
-    .elo {
-        width: 200px;
-
-    }
 
     .formas-pagamentos ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
-        list-style: none;
-        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formas-pagamentos ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
     .formas-pagamentos h1 {
         font-size: 2rem;
         margin: 10px;
-    }
-
-    .formas-pagamentos li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
     }
 
     .btn-whats {
@@ -426,9 +491,22 @@
         justify-content: flex-end !important;
     }
 
+    .section-text h1 {
+        width: 95%;
+        font-size: 4rem;
+    }
+
     .section-text {
-        width: 90%;
-        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .second-text {
+        width: 85%;
     }
 
     .section-btns {
@@ -445,13 +523,24 @@
         width: 90%;
         margin: auto;
     }
-
+    .container-marcas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .box-marcas {
         flex-direction: row;
     }
 
     .list-marcas {
         flex-direction: column;
+    } .list-marcas .marcas {
+        padding: 10px;
+    }
+
+
+    .box-text-vantagens p {
+        width: 85%;
     }
 
     .box-vantagens aside {
@@ -491,6 +580,10 @@
 
     .paragrafo-pecas {
         padding: 15px;
+    }
+
+    .box-cor p {
+        width: 400px !important;
     }
 
     .list-opcionais {
@@ -544,10 +637,17 @@
 
     .formas-pagamentos ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
-        list-style: none;
-        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formas-pagamentos ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
     .box-infomacoesempresa section,
@@ -576,7 +676,7 @@
         height: 80%;
 
     }
-    
+
     .formulariocontato form,
     .box-endereco-contato,
     .horariofuncionamento,
@@ -596,22 +696,24 @@
     }
 
     .main-btn {
-      
+
         width: 100%;
         margin-top: 20px;
     }
 
-    .elo {
-        width: 200px;
-
-    }
-
     .formas-pagamentos ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
-        list-style: none;
-        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formas-pagamentos ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
     .formas-pagamentos h1 {
@@ -619,12 +721,6 @@
         margin: 10px;
     }
 
-    .formas-pagamentos li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
-    }
 
     .btn-whats {
         display: flex;
@@ -650,9 +746,23 @@
         justify-content: flex-end !important;
     }
 
+    .section-text h1 {
+        border: 2px solid red;
+        width: 95%;
+        font-size: 4rem;
+    }
+
     .section-text {
-        width: 90%;
-        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .second-text {
+        width: 85%;
     }
 
     .section-btns {
@@ -668,13 +778,24 @@
         width: 90%;
         margin: auto;
     }
-
+    .container-marcas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .box-marcas {
         flex-direction: row;
     }
 
     .list-marcas {
         flex-direction: column;
+    }
+    .list-marcas .marcas {
+        padding: 10px;
+    }
+
+    .box-text-vantagens p {
+        width: 85%;
     }
 
     .box-vantagens aside {
@@ -710,6 +831,10 @@
         width: 100%;
         margin: auto;
         padding: 5px;
+    }
+
+    .box-cor p {
+        width: 400px !important;
     }
 
     .paragrafo-pecas {
@@ -767,10 +892,17 @@
 
     .formas-pagamentos ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
-        list-style: none;
-        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formas-pagamentos ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
     .box-infomacoesempresa section,
@@ -799,7 +931,7 @@
         height: 80%;
 
     }
-    
+
     .formulariocontato form,
     .box-endereco-contato,
     .horariofuncionamento,
@@ -819,34 +951,29 @@
     }
 
     .main-btn {
-        
+
         width: 100%;
         margin-top: 20px;
     }
 
-    .elo {
-        width: 200px;
-
-    }
-
     .formas-pagamentos ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
-        list-style: none;
-        margin-top: 20px;
+        width: 100%;
+    }
+
+    .formas-pagamentos ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
     .formas-pagamentos h1 {
         font-size: 2rem;
         margin: 10px;
-    }
-
-    .formas-pagamentos li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
     }
 
     .btn-whats {
