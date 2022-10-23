@@ -27,8 +27,9 @@
     }
 
     .section-text h1 {
+        margin: 8px;
         width: 95%;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .section-text {
@@ -115,7 +116,9 @@
         height: 350px;
         margin: 15px;
     }
-
+    .box-img-beneficios b {
+        font-size: 1rem;
+    }
     .box-pecas1,
     .box-pecas2 {
         height: 800px;
@@ -207,12 +210,6 @@
         margin: 5px !important;
         text-align: left;
     }
-
-    .box-endereco-contato p,
-    .horariofuncionamento p {
-        color: #f8f2f6 !important;
-    }
-
     .formulariocontato form {
         justify-content: flex-end;
         width: 80%;
@@ -289,8 +286,10 @@
         top: 0;
         left: 0;
     }
-
-
+.cor-numeros-responsivo {
+    border: 2px solid red;
+        color: #f8f2f6 !important;
+    }
 }
 
 @media (min-width: 574px) and (max-width: 767.98px) {
@@ -322,8 +321,9 @@
     }
 
     .section-text h1 {
+        margin: 8px;
         width: 95%;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .section-text {
@@ -629,10 +629,10 @@
     }
 
     .section-text h1 {
+        margin: 8px;
         width: 95%;
-        font-size: 4rem;
+        font-size: 3rem;
     }
-
     .section-text {
         display: flex;
         flex-direction: column;
