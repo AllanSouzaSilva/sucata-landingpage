@@ -295,6 +295,7 @@ main {
 /******************************************************************* Configurações Botão whatsapp *******************************************/
 
 .btn-whats {
+    border: 2px solid red !important;
     position: fixed;
     bottom: 15px;
     right: 15px;
