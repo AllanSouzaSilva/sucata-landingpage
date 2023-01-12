@@ -116,9 +116,11 @@
         height: 350px;
         margin: 15px;
     }
+
     .box-img-beneficios b {
         font-size: 1rem;
     }
+
     .box-pecas1,
     .box-pecas2 {
         height: 800px;
@@ -210,6 +212,7 @@
         margin: 5px !important;
         text-align: left;
     }
+
     .formulariocontato form {
         justify-content: flex-end;
         width: 80%;
@@ -286,8 +289,8 @@
         top: 0;
         left: 0;
     }
-.cor-numeros-responsivo {
-    border: 2px solid red;
+
+    .cor-numeros-responsivo {
         color: #f8f2f6 !important;
     }
 }
@@ -390,7 +393,6 @@
     }
 
     .box-list-beneficios {
-        border: 2px solid red;
         margin: 0;
         flex-direction: column;
     }
@@ -633,6 +635,7 @@
         width: 95%;
         font-size: 3rem;
     }
+
     .section-text {
         display: flex;
         flex-direction: column;
@@ -698,7 +701,6 @@
     }
 
     .box-list-beneficios {
-        border: 2px solid red;
         margin: 0;
         flex-direction: column;
     }
